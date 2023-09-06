@@ -1,0 +1,136 @@
+<html>
+        <head>
+                <title>form </title>
+        </head>
+        <body>
+
+
+ <center>  <input type="text"placeholder=" Hi, MY Name is Vaibhav " readonly=""/> </center>
+
+                <fieldset>
+
+                        <fieldset>
+
+                         <legend>Information</legend> 
+
+                         <form>
+Name:
+<input type="text" value=""  placeholder="please enter your name her" name="name" required=""
+autofocus=""/>
+<br/>
+<br/>
+Address:<textarea placeholder="please enter your address"></textarea>
+<br/>
+<br/>
+Gender:
+<input type="radio" value="m" name="gender"/> male
+<input type="radio" value="f" name="gender"/> female
+<input type="radio" value="o" name="gender"/> other
+<br/>
+<br/>
+Country:
+<select>
+        <i>     <option>please select country</option> </i>
+         <option value="india">india </option>
+                 <optgroup label="city">
+                <option value="pune">pune </option>
+                <option value="nagpur">nagpur </option>
+                <option value="warora">warora </option>
+                <option value="chandrapur">chandrapur </option>
+                </optgroup>
+        <option value="germany">germany </option>
+         <option value="canada">canada </option>
+          <option value="china">china </option>
+          <option value="australia">australia </option>
+
+</select>
+<br/>
+<br/>
+Hobbies:
+<input type="checkbox" name="hobbies[]">dancing
+<input type="checkbox" name="hobbies[]">gaming
+<input type="checkbox" name="hobbies[]">lerning
+<br/>
+<br/>
+Photo:
+<input type="file" name="image" required=""/>
+<br/>
+<br/>
+Resume:
+<input type="file" name="image" required=""/>
+<br/>
+<br/>
+
+<input type="submit" value="send"/>
+<input type="reset" value="reset"/>
+                        </form>
+                </fieldset>
+
+                <form>
+<fieldset> 
+                        <legend>HTML 5 </legend>
+
+Email:
+<input type="email" name="email" placeholder="xyz.gmail.com" required="" autofocus=""/>
+<br/>
+<br/>
+
+Password:
+<input type="password" name="password" placeholder="enter password" required="" autofocus=""  maxlength="12"/>
+<br/>
+<br/>
+
+Mobile Number:
+<input type="number" name="number" placeholder="enter your mobile number"  required="" autofocus="" maxlength="12"/>
+<br/>
+<br/>
+
+Age:
+<input type="number" name="age" placeholder="enter your age"  required="" autofocus="" min="1" max="25"/>
+<br/>
+<br/>
+<br/>
+<input type="submit" value="send"/>
+<input type="reset" value="reset"/>
+
+</fieldset>
+
+                </form>
+
+                <form>
+                        <fieldset>
+                                <legend>HTML 5 Calender Elements</legend>
+
+                                Date:
+                                <input type="date" name="date"  required=""/>
+                                <br/>
+                                <br/>
+                                Datetime:
+                                  <input type="datetime-local" name="date and time"  required=""/>
+                                  <br/>
+                                  <br/>
+                                  Time:
+                                    <input type="time" name="time"  required=""/>
+                                    <br/>
+                                    <br/>
+                                    Month:
+                                      <input type="month" name="month"  required=""/>
+                                      <br/>
+                                      <br/>
+                                      Week:
+                                        <input type="week" name="week"  required=""/>
+                                        <br/>
+                                        <br/>
+                                        Range:
+                                          <input type="range" name="range" value=""/>
+                                          <br/>
+                                          <br/>
+<input type="submit" value="send"/>
+<input type="reset" value="reset"/>
+
+
+                        </fieldset>
+                        </fieldset>
+                </form>
+        </body>
+</html>
